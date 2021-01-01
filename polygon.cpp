@@ -30,7 +30,7 @@ bool InsidePolygon(Point *polygon, int N, Point p)
 					{
 						xinters = (p.y-p1.y)*(p2.x-p1.x)/(p2.y-p1.y)+p1.x;
 						if (p1.x == p2.x || p.x <= xinters)
-							counter++;
+							counter++;                  // Counting intersection if even count point lies outside else lies inside
 					}
 				}
 			}
@@ -47,8 +47,8 @@ bool InsidePolygon(Point *polygon, int N, Point p)
 
 int main()
 {
-	Point p = {3, 5};
-	Point polygon[] = {{1,0}, {8,3}, {8,8}, {1,5}};
+	Point p = {0, 0}; // Check point
+	Point polygon[] = {{-3, 2}, {-2, -0.8}, {0, 1.2}, {2.2, 0}, {2, 4.5}}; // Polygon Coordinates
 	int N = sizeof(polygon)/sizeof(polygon[0]);
 	InsidePolygon(polygon, N, p)? cout << "True\n" : cout << "False\n";	
 	return 0;
