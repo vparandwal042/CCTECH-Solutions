@@ -1,5 +1,5 @@
 # CCTECH-Solutions
-This repository contains solutions of CCTECH challenges solutions.
+This repository contains CCTECH programming challenge solutions.
 
 ## Program 1 : Check if the given point lies inside or outside a polygon?
 To check if the given point lies inside or outside a polygon, <b>InsidePolygon()</b> is used that contain two arguments as a input of array consists of polygon coordinates and coordinates of check point.<br><br>
