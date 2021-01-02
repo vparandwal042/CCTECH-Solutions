@@ -2,16 +2,16 @@
 This repository contains solutions of CCTECH challenges solutions.
 
 ## Program 1 : Check if the given point lies inside or outside a polygon?
-To check if the given point lies inside or outside a polygon, <b>InsidePolygon()<b> is used that contain two arguments as a input of array consists of polygon coordinates and coordinates of check point.<br><br>
+To check if the given point lies inside or outside a polygon, <b>InsidePolygon()</b> is used that contain two arguments as a input of array consists of polygon coordinates and coordinates of check point.<br><br>
 When a point is given, then a line is drawn (virtually) from a point far away outside from the polygon to the given point. Then, count the number of intersections of the virtual line with the edges of the polygon. If the number of intersections is odd, the point is inside the polygon. Otherwise, the point is outside the polygon.
 
 ## Program 2 : Calculate the surface of the building exposed to sunlight?
-Calcute the surface of the building exposed to sunlight, <b>calculateLength()<b> is used that contain two arguments as a input of sun coordinates and building coordinates.<br><br>
+Calcute the surface of the building exposed to sunlight, <b>calculateLength()</b> is used that contain two arguments as a input of sun coordinates and building coordinates.<br><br>
 Case 1: for one building<br>
-<b>calForOneBuilding()<b> is to calculate the surface of the building exposed to sunlight.
+<b>calForOneBuilding()</b> is to calculate the surface of the building exposed to sunlight.
 for any point of sun this function will calculate the surface exposed to sunlight.<br>
 Case 2: for more than one building<br>
-<b>calculateLength()<b> has some cases--><br><br>
+<b>calculateLength()</b> has some cases--><br><br>
 1. If first building is nearer to sun than second.<br>
 2. If Second building is nearer to sun than first.<br>
 3. Both are equally distant to sun (in this sun is above the buldings).<br>
